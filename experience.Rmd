@@ -1,0 +1,102 @@
+---
+title: "Experience"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+## Academic
+
+**[Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/), 
+New York, New York**    
+
+***Masters in Epidemiology, Certificate in Biostatistics***  
+Graduation: May 2020  
+GPA: 4.07  
+Awards:  
+
+* *Witten Family Global Health Scholarship* 
+
+* *Delta Omega Honorary Society (reserved for students in the top 10%, based on GPA)*
+
+**[University of California at Los Angeles](http://www.ucla.edu/), Los Angeles, California**  
+
+***Bachelors of Arts in Economics, Minor in Public Health***  
+Graduation: June 2014  
+GPA: 3.63
+
+## Skills 
+* **Programming languages**: SAS, R
+
+* **Other technical**: Microsoft Excel (Expert), Microsoft Access SQL (Expert), GIS, DHIS2, Open Data Kit – ODK
+
+* **Leadership**: Team lead for 2+ years, overseeing career development and promotion for more than 15 associates
+
+* **Certifications and trainings**: HIPAA, CITI, FDA-Regulated Research, Good Clinical Practice (GCP), Human Subjects Protection Training
+
+## Professional
+
+### Public Health
+
+**[ICAP](https://icap.columbia.edu/), New York, New York**    
+December 2018 - Present
+
+__*Strategic Information Assistant*__
+
+* Customizes electronic data collection tools in DHIS2 and SurveyCTO, ensuring high quality quantitative and qualitative data collection for projects funded by PEPFAR, NIH, and other agencies 
+
+* Collaborates with project teams to optimize health informatics and visualization tools
+
+**[Harlem Prevention Center](https://www.facebook.com/HarlemPreventionCenter/), New York, New York**    
+June 2019 - August 2019
+
+__*ICAP Next Generation Intern*__
+
+* Assisted Data Manager in quality control and assurance for ongoing clinical trial HPTN 083
+
+* Conducted an independent research project using SAS Software (see below)
+
+### Consulting
+
+**[Triage Consulting Group](https://www.triageconsulting.com/), 
+San Francisco, California**    
+August 2014 - June 2018
+
+
+__*Senior Associate*__ (May 2016 - June 2018)
+
+* Managed a team of 5 to recover revenue for hospital systems nationwide
+* Utilized SQL-based Microsoft Access databases to import data, perform audits, and identify trends across big data  
+  * Created new and reusable macros to import patient specific data (.txt or .cvs) from hospital systems 
+  * Oversaw and improved audits using complex queries and macros
+  * Identified variance trends and created client deliverables to improve processes   
+
+* Served as the primary client contact: responsible for clear communication and data-driven answers to wide-scale problems, presented client deliverables to C-level employees at many major hospital systems
+* Guided career development, mentorship, and evaluations for Associate Consultants
+* Coordinated and presented trainings as Internal Training Coordinator focusing on Advanced Microsoft Excel and Access skills (macros, tables, queries, pivot tables, etc.) 
+* Served as Internal Coordinator in the Social Responsibility Squad for companywide volunteer events with non-profit partners 
+
+__*Associate*__	(August 2014 - May 2016) 
+
+* Completed day-to-day tasks such as data management, hospital account and claims pricing, research, and analysis, utilizing Microsoft Access, Microsoft Excel, and PowerPoint to compile client deliverables
+
+
+## Volunteer
+
+**[Strut at San Francisco AIDS Foundation](https://www.sfaf.org/locations/strut/), San Francisco, California**    
+August 2016 - June 2018
+
+__*Concierge*__
+
+* Greeted guests, scheduled future appointments, and scanned laboratory results into an electronic health system
+
+**[UCLA OB/GYN Clinic](http://obgyn.ucla.edu/), Los Angeles, California**    
+June 2013 - February 2014
+
+__*Title X Intern*__
+
+* Presented sex education workshops for the LA Youth Network to educate homeless youth 
+
+

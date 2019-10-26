@@ -1,0 +1,22 @@
+---
+title: "About Me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: sandstone
+---
+
+### Holly Finertie
+###### MPH Candidate
+###### Columbia University Mailman School of Public Health
+
+
+Hello! My name is Holly. I'm a Bay Area transplant currently living in NYC and attending Columbia University Mailman School of Public Health. I love beer, daschunds, and UCLA (go Bruins!) in that order. 
+
+This me: 
+
+
+
+
+
