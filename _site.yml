@@ -15,4 +15,4 @@ navbar:
       href: https://github.com/hollyfinertie
 output:
   html_document:
-    theme: sandstone
+    theme: paper
