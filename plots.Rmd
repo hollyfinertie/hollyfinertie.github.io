@@ -1,7 +1,9 @@
 ---
-title: "plots"
+title: "Untitled"
 output: 
-  html_document
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
 ```{r setup, include=FALSE}
@@ -9,35 +11,28 @@ library(tidyverse)
 library(viridis)
 library(p8105.datasets)
 library(plotly)
-```
-
-
-```{r, load_data}
+library(flexdashboard)
 data(rest_inspec)
 
 rest_inspec =
   rest_inspec %>%
-  filter(grade %in% c("A", "B", "C"), boro == "Manhattan") %>% 
+  filter(grade %in% c("A", "B", "C") & boro == "MANHATTAN") %>% 
   mutate(
     boro = str_to_title(boro), 
     cuisine_description = recode(cuisine_description,
       "CafÃ©/Coffee/Tea" = "Cafe/Coffee/Tea", 
       "Latin (Cuban, Dominican, Puerto Rican, South & Central American)" = "Latin")) %>% 
-  select(boro, grade, score, cuisine_description)
+  select(boro, grade, score, cuisine_description, building, zipcode)
 
 top_cuisines = rest_inspec %>% 
   count(cuisine_description, sort = TRUE) %>% 
   top_n(10) %>% 
   select(cuisine_description, n)
-```
 
-
-```{r, Figure1}
 figure1 = rest_inspec %>% 
   plot_ly(
-    x = ~boro, y = ~score, type = "scatter", mode = "markers",
+    x = ~zipcode, y = ~score, type = "scatter", mode = "markers",
     color = ~grade, alpha = 0.5)
-  
 
 figure2 = inner_join(rest_inspec, top_cuisines, by = "cuisine_description") %>% 
   mutate(cuisine_description = fct_reorder(cuisine_description, score)) %>% 
@@ -49,13 +44,32 @@ figure3 = rest_inspec %>%
   filter(n >= 1500) %>% 
   mutate(cuisine_description = fct_reorder(cuisine_description, n)) %>% 
   plot_ly(x = ~cuisine_description, y = ~n, color = ~cuisine_description, type = "bar")
-
-figure1 
-
-figure2 
-
-figure3
-
 ```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+figure1
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+figure2
+```
+
+### Chart C
+
+```{r}
+figure3
+```
+
+
 
 
