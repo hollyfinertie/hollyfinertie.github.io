@@ -16,7 +16,4 @@ navbar:
 output:
   html_document:
     theme: paper
-    toc: true
-    toc_float: true
-    css: style.css
     
