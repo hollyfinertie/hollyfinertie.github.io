@@ -2,7 +2,7 @@
 title: "About Me"
 ---
 
-Hello! My name is Holly. I'm a Bay Area transplant currently living in NYC and attending Columbia University Mailman School of Public Health. I love beer, daschunds, and UCLA (in that order). 
+Hello! My name is Holly. I'm a Bay Area transplant currently living in NYC and attending Columbia University Mailman School of Public Health. I love beer, daschunds, and biostatistics (in that order). 
 
 This is me: 
 
