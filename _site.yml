@@ -1,7 +1,7 @@
 name: "hollys-website"
 output_dir: "."
 navbar:
-  title: "Holly's Website"
+  title: "Holly Finertie"
   right:
     - text: "About"
       href: index.html
@@ -16,3 +16,7 @@ navbar:
 output:
   html_document:
     theme: paper
+    toc: true
+    toc_float: true
+    css: style.css
+    
