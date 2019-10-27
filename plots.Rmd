@@ -1,0 +1,61 @@
+---
+title: "plots"
+output: 
+  html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+```{r, load_data}
+data(rest_inspec)
+
+rest_inspec =
+  rest_inspec %>%
+  filter(grade %in% c("A", "B", "C"), boro == "Manhattan") %>% 
+  mutate(
+    boro = str_to_title(boro), 
+    cuisine_description = recode(cuisine_description,
+      "CafÃ©/Coffee/Tea" = "Cafe/Coffee/Tea", 
+      "Latin (Cuban, Dominican, Puerto Rican, South & Central American)" = "Latin")) %>% 
+  select(boro, grade, score, cuisine_description)
+
+top_cuisines = rest_inspec %>% 
+  count(cuisine_description, sort = TRUE) %>% 
+  top_n(10) %>% 
+  select(cuisine_description, n)
+```
+
+
+```{r, Figure1}
+figure1 = rest_inspec %>% 
+  plot_ly(
+    x = ~boro, y = ~score, type = "scatter", mode = "markers",
+    color = ~grade, alpha = 0.5)
+  
+
+figure2 = inner_join(rest_inspec, top_cuisines, by = "cuisine_description") %>% 
+  mutate(cuisine_description = fct_reorder(cuisine_description, score)) %>% 
+  plot_ly(x = ~cuisine_description, y = ~score, color = ~cuisine_description, type = "box",
+          colors = "Set2")
+
+figure3 = rest_inspec %>% 
+  count(cuisine_description) %>% 
+  filter(n >= 1500) %>% 
+  mutate(cuisine_description = fct_reorder(cuisine_description, n)) %>% 
+  plot_ly(x = ~cuisine_description, y = ~n, color = ~cuisine_description, type = "bar")
+
+figure1 
+
+figure2 
+
+figure3
+
+```
+
+
