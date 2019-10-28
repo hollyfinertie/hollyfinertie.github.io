@@ -48,25 +48,25 @@ figure3 = rest_inspec %>%
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Restaurant Scores by Grade
+### Counts by Cuisine Type (over 1,500)
 
 ```{r}
-ggplotly(figure1)
+figure3
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Spread of Scores by Top 10 Cuisines
+### Scores by Grade
 
 ```{r}
-figure2
+ggplotly(figure1)
 ```
 
-### Count of Restaurants (over 1500) by Cuisine Type
 
+### Spread of Scores by Top 10 Cuisines
 ```{r}
-figure3
+figure2
 ```
 
 
