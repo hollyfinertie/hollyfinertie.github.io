@@ -7,6 +7,8 @@ navbar:
       href: index.html
     - text: "Experience"
       href: experience.html
+    - text: "Restaurant Inspection"
+      href: plots.html
     - icon: fa-envelope fa-lg
       href: mailto:<hollyfinertie@gmail.com>
     - icon: fa-github fa-lg

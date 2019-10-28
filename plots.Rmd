@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Restaurant Inspection Scores - NYC"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -30,14 +30,16 @@ top_cuisines = rest_inspec %>%
   select(cuisine_description, n)
 
 figure1 = rest_inspec %>% 
-  plot_ly(
-    x = ~zipcode, y = ~score, type = "scatter", mode = "markers",
-    color = ~grade, alpha = 0.5)
+  ggplot(aes(x = score, fill = grade)) + 
+  geom_density(alpha = .5) +
+  labs(
+    title = "Restaurant Scores by Grade"
+  )
 
 figure2 = inner_join(rest_inspec, top_cuisines, by = "cuisine_description") %>% 
   mutate(cuisine_description = fct_reorder(cuisine_description, score)) %>% 
   plot_ly(x = ~cuisine_description, y = ~score, color = ~cuisine_description, type = "box",
-          colors = "Set2")
+          colors = "Set2") 
 
 figure3 = rest_inspec %>% 
   count(cuisine_description) %>% 
@@ -52,7 +54,7 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-figure1
+ggplotly(figure1)
 ```
 
 Column {data-width=350}
