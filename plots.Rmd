@@ -1,5 +1,5 @@
 ---
-title: "Restaurant Inspection Scores - NYC"
+title: "Restaurant Inspection Review - Manhattan"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -31,10 +31,7 @@ top_cuisines = rest_inspec %>%
 
 figure1 = rest_inspec %>% 
   ggplot(aes(x = score, fill = grade)) + 
-  geom_density(alpha = .5) +
-  labs(
-    title = "Restaurant Scores by Grade"
-  )
+  geom_density(alpha = .5) 
 
 figure2 = inner_join(rest_inspec, top_cuisines, by = "cuisine_description") %>% 
   mutate(cuisine_description = fct_reorder(cuisine_description, score)) %>% 
@@ -51,7 +48,7 @@ figure3 = rest_inspec %>%
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Restaurant Scores by Grade
 
 ```{r}
 ggplotly(figure1)
@@ -60,13 +57,13 @@ ggplotly(figure1)
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Spread of Scores by Top 10 Cuisines
 
 ```{r}
 figure2
 ```
 
-### Chart C
+### Count of Restaurants (over 1500) by Cuisine Type
 
 ```{r}
 figure3
