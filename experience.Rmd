@@ -24,15 +24,18 @@ Awards:
 ***Bachelors of Arts in Economics, Minor in Public Health***  
 Graduation: June 2014  
 GPA: 3.63  
+<br>
 
 ### Skills 
 * **Programming languages**: SAS, R
 
 * **Other technical**: Microsoft Excel (Expert), Microsoft Access SQL (Expert), GIS, DHIS2, Open Data Kit – ODK
 
-* **Leadership**: Team lead for 2+ years, overseeing career development and promotion for more than 15 associates
+* **Leadership**: Team lead for 2+ years, oversaw career development and promotion for more than 15 associates
 
 * **Certifications and trainings**: HIPAA, CITI, FDA-Regulated Research, Good Clinical Practice (GCP), Human Subjects Protection Training
+
+<br>
 
 ### Professional
 
@@ -53,6 +56,8 @@ __*ICAP Next Generation Intern*__
 * Assisted Data Manager in quality control and assurance for ongoing clinical trial HPTN 083
 
 * Conducted an independent research project using SAS Software (see below)
+
+<br>
 
 #### Consulting
 
@@ -75,6 +80,7 @@ __*Associate*__	(August 2014 - May 2016)
 
 * Completed day-to-day tasks such as data management, hospital account and claims pricing, research, and analysis, utilizing Microsoft Access, Microsoft Excel, and PowerPoint to compile client deliverables
 
+<br>
 
 ### Volunteering
 

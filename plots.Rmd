@@ -43,9 +43,14 @@ figure3 = rest_inspec %>%
   filter(n >= 1500) %>% 
   mutate(cuisine_description = fct_reorder(cuisine_description, n)) %>% 
   plot_ly(x = ~cuisine_description, y = ~n, color = ~cuisine_description, type = "bar")
+
+figure4 = rest_inspec %>% 
+  group_by(cuisine_description, grade) %>% 
+  summarize(mean_score = mean(score)) %>% 
+  plot_ly(x = ~cuisine_description, y = ~mean_score, color = ~grade, type = "scatter", mode = "markers")
 ```
 
-Column {data-width=650}
+Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### Counts by Cuisine Type (over 1,500)
@@ -54,15 +59,19 @@ Column {data-width=650}
 figure3
 ```
 
-Column {data-width=350}
------------------------------------------------------------------------
-
-### Scores by Grade
+### Density of Scores by Grade
 
 ```{r}
 ggplotly(figure1)
 ```
 
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Average Scores by Grade and Cuisine
+```{r}
+figure4
+```
 
 ### Spread of Scores by Top 10 Cuisines
 ```{r}
