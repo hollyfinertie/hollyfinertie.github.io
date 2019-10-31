@@ -29,9 +29,6 @@ top_cuisines = rest_inspec %>%
   top_n(10) %>% 
   select(cuisine_description, n)
 
-figure1 = rest_inspec %>% 
-  ggplot(aes(x = score, fill = grade)) + 
-  geom_density(alpha = .5) 
 
 figure2 = inner_join(rest_inspec, top_cuisines, by = "cuisine_description") %>% 
   mutate(cuisine_description = fct_reorder(cuisine_description, score)) %>% 
@@ -50,28 +47,23 @@ figure4 = rest_inspec %>%
   plot_ly(x = ~cuisine_description, y = ~mean_score, color = ~grade, type = "scatter", mode = "markers")
 ```
 
-Column {data-width=500}
+Column {data-width=600}
+-----------------------------------------------------------------------
+### Average Scores by Grade and Cuisine
+```{r}
+figure4
+```
+
+
+Column {data-width=400}
 -----------------------------------------------------------------------
 
-### Counts by Cuisine Type (over 1,500)
+### Counts by Cuisine  (over 1,500)
 
 ```{r}
 figure3
 ```
 
-### Density of Scores by Grade
-
-```{r}
-ggplotly(figure1)
-```
-
-Column {data-width=500}
------------------------------------------------------------------------
-
-### Average Scores by Grade and Cuisine
-```{r}
-figure4
-```
 
 ### Spread of Scores by Top 10 Cuisines
 ```{r}
