@@ -1,15 +1,28 @@
 ---
-title: "Past Projects"
+title: "Academic Projects"
 output:
   html_document: 
     toc: true
     toc_float: true
 ---
 
-## Mailman School of Public Health Projects
+Below are projects completed at Mailman School of Public Health at Columbia University. 
 
-Using SAS: 
+**Using SAS**:   
 
-Using R: 
+* Social Support and HIV Testing Frequency Among Black MSM and TGW in NYC Using Multinomial Regression (*Thesis: in progress*)  
 
-Using GIS: 
+* Association between Self-Identified Sexual Orientation and Diagnosis of STIs Modified by Sex: A Cross Sectional Study ([abstract](data/Sexual Orientation and STI Abstract.pdf), [code](data/Sexual Orientation and STI Code.sas))
+
+
+**Using R**: 
+
+* Climate Change and Natural Disasters in the United States ([website](https://ilz2105.github.io/disasters.github.io/))
+
+**Using GIS**: 
+
+* Effects of Wildfire Frequency and Intensity on Asthma Related
+Emergency Department Visits in California from 2008-2017 ([poster](data/Wildfires and Asthma.pdf))
+
+
+

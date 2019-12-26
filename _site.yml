@@ -7,8 +7,8 @@ navbar:
       href: index.html
     - text: "Experience"
       href: experience.html
-    - text: "Restaurant Inspection"
-      href: plots.html
+    - text: "Past Projects"
+      href: projects.html
     - icon: fa-envelope fa-lg
       href: mailto:<hollyfinertie@gmail.com>
     - icon: fa-github fa-lg
@@ -17,5 +17,5 @@ navbar:
       href: https://www.linkedin.com/in/holly-finertie-aa944478/
 output:
   html_document:
-    theme: cerulean 
+    theme: cosmo
     
