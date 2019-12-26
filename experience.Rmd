@@ -26,9 +26,7 @@ GPA: 3.63
 <br>
 
 ### Skills 
-* **Programming languages**: SAS, R
-
-* **Other technical**: Microsoft Excel (Expert), Microsoft Access SQL (Expert), GIS, DHIS2, Open Data Kit – ODK
+* **Software and Programming**: SAS, R, SQL, Microsoft Excel, Microsoft Access, GIS, DHIS2, Open Data Kit – ODK
 
 * **Leadership**: Team lead for 2+ years, oversaw career development and promotion for more than 15 associates
 
@@ -37,8 +35,6 @@ GPA: 3.63
 <br>
 
 ### Professional
-
-#### Public Health
 
 **[ICAP](https://icap.columbia.edu/)**, New York    
 December 2018 - Present  
@@ -57,8 +53,6 @@ __*ICAP Next Generation Intern*__
 * Conducted an independent research project using SAS Software (see below)
 
 <br>
-
-#### Consulting
 
 **[Triage Consulting Group](https://www.triageconsulting.com/)**, San Francisco      
 August 2014 - June 2018  

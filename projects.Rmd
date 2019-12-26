@@ -2,8 +2,8 @@
 title: "Academic Projects"
 output:
   html_document: 
-    toc: true
-    toc_float: true
+    toc: false
+    toc_float: false
 ---
 
 Below are projects completed at Mailman School of Public Health at Columbia University. 
