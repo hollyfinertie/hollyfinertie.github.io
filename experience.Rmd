@@ -6,7 +6,6 @@ output:
     toc_float: false
 ---
   
-  
 ### Academic  
 
 **[Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/)**, New York     
