@@ -2,28 +2,28 @@
 title: "Interests"
 ---
 
-Outside of my academic and professional experiences, the following give me joy (in this order): my girlfriend Kate, beer, pizza, traveling, and dachshunds. Some are pictured below! 
+Outside of my academic and professional experiences, the following give me joy (in this order): my girlfriend, Kate, beer, pizza, traveling, and dachshunds. Some are pictured below! 
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(magick)
 
 hiking =  image_read("data/hiking.jpg") %>% 
           image_rotate(90) %>% 
-          image_scale("400")
+          image_scale("500")
 ```
 
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 beer =  image_read("data/beer.jpg") %>% 
           image_rotate(90) %>% 
-          image_scale("400")
+          image_scale("500")
 ```
 
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 balboa =  image_read("data/balboa.jpg") %>% 
           image_rotate(90) %>% 
-          image_scale("400")
+          image_scale("500")
 ```
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
