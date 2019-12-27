@@ -55,7 +55,7 @@ antelope
 
 <img src="data/snow.jpg"  style="width:45%">
 
-*(somewhere near Tahoe with Kate)*
+*(somewhere in Tahoe with Kate)*
 
 
 
