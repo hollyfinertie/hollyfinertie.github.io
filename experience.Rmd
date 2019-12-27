@@ -26,9 +26,9 @@ GPA: 3.63
 <br>
 
 ### Skills 
-* **Software and Programming**: SAS, R, SQL, Microsoft Excel, Microsoft Access, GIS, DHIS2, Open Data Kit – ODK
+* **Technical**: SAS, R, SQL, ODK, Microsoft Excel, Microsoft Access, GIS, DHIS2  
 
-* **Leadership**: Team lead for 2+ years, oversaw career development and promotion for more than 15 associates
+* **Management**: Team lead for 2+ years, oversaw career development and promotion for more than 15 associates
 
 * **Certifications and trainings**: HIPAA, CITI, FDA-Regulated Research, Good Clinical Practice (GCP), Human Subjects Protection Training
 
