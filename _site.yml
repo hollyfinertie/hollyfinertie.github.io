@@ -3,12 +3,14 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
+    - text: "Welcome"
       href: index.html
     - text: "Experience"
       href: experience.html
     - text: "Academic Projects"
       href: projects.html
+    - text: "About Me"
+      href: moments.html
     - icon: fa-envelope fa-lg
       href: mailto:<hollyfinertie@gmail.com>
     - icon: fa-github fa-lg

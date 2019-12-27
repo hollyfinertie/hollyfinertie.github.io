@@ -1,0 +1,45 @@
+---
+title: "About Me"
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(magick)
+
+hiking =  image_read("data/hiking.jpg") %>% 
+          image_rotate(90) %>% 
+          image_scale("400")
+```
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+beer =  image_read("data/beer.jpg") %>% 
+          image_rotate(90) %>% 
+          image_scale("400")
+```
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+balboa =  image_read("data/balboa.jpg") %>% 
+          image_rotate(90) %>% 
+          image_scale("400")
+```
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+dublin =  image_read("data/dublin.jpg") %>% 
+          image_rotate(180) %>% 
+          image_scale("400")
+```
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+hiking
+beer
+balboa
+```
+<img src="data/apple.jpg"  style="width:45%">
+
+<img src="data/beerfest.jpg" style="width:45%">
+
+<img src="data/snow.jpg"  style="width:45%">
+
+
+
