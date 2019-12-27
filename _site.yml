@@ -1,13 +1,13 @@
 name: "hollys-website"
 output_dir: "."
 navbar:
-  title: "Holly Finertie"
+  title: "Home"
   right:
     - text: "About"
       href: index.html
     - text: "Experience"
       href: experience.html
-    - text: "Past Projects"
+    - text: "Academic Projects"
       href: projects.html
     - icon: fa-envelope fa-lg
       href: mailto:<hollyfinertie@gmail.com>

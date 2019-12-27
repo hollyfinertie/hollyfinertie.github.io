@@ -6,7 +6,7 @@ output:
     toc_float: false
 ---
 
-Below are projects completed at Mailman School of Public Health at Columbia University. 
+Below are projects completed at Columbia University Mailman School of Public Health. 
 
 **Using SAS OnDemand**:   
 
