@@ -17,7 +17,7 @@ Below are projects completed at Columbia University Mailman School of Public Hea
 
 **Using RStudio**: 
 
-* Climate Change and Natural Disasters in the United States ([website](https://ilz2105.github.io/disasters.github.io/))
+* Climate Change and Natural Disasters in the United States ([website](https://ilz2105.github.io/disasters.github.io/), [github](https://github.com/ilz2105/disasters.github.io))
 
 **Using QGIS**: 
 
