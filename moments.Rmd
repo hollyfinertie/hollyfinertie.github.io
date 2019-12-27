@@ -1,6 +1,8 @@
 ---
-title: "Moments"
+title: "Interests"
 ---
+
+Outside of my academic and professional experiences, the following give me joy (in this order): my girlfriend Kate, beer, pizza, traveling, and dachshunds. Some are pictured below! 
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(magick)
@@ -42,18 +44,18 @@ beer
 balboa
 ```
 
-(hiking in Zion, drinking beer in Toronto, enjoying San Diego)
+*(left to right: hiking in Zion National Park, drinking beer in Toronto, enjoying Balboa Park in San Diego with Kate)*  
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 antelope
 ```
 <img src="data/beerfest.jpg" style="width:45%">
 
-(exploring Lower Antelope Canyon, San Francisco beer festival)
+*(left to right: exploring Lower Antelope Canyon, tasting beer at the San Francisco Beer Festival with Kate and my sister)*  
 
 <img src="data/snow.jpg"  style="width:45%">
 
-(somewhere near Tahoe)
+*(somewhere near Tahoe with Kate)*
 
 
 
