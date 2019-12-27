@@ -31,15 +31,22 @@ dublin =  image_read("data/dublin.jpg") %>%
 ```
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
+antelope =  image_read("data/antelope.jpg") %>% 
+          image_rotate(270) %>% 
+          image_scale("400")
+```
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
 hiking
 beer
 balboa
+antelope
 ```
+<img src="data/beerfest.jpg" style="width:45%">
+<img src="data/snow.jpg"  style="width:45%">
 <img src="data/apple.jpg"  style="width:45%">
 
-<img src="data/beerfest.jpg" style="width:45%">
 
-<img src="data/snow.jpg"  style="width:45%">
 
 
 
