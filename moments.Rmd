@@ -2,7 +2,7 @@
 title: "Interests"
 ---
 
-Outside of my academic and professional experiences, the following give me joy (in this order): my girlfriend, Kate, beer, pizza, traveling, and dachshunds. Some are pictured below! 
+Outside of my academic and professional experiences, the following give me joy (in this order): my girlfriend (Kate), beer, pizza, traveling, and dachshunds. Some are pictured below! 
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(magick)
