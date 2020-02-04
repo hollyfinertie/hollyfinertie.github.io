@@ -11,7 +11,7 @@ output:
 **[Columbia University Mailman School of Public Health](https://www.mailman.columbia.edu/)**, New York     
 ***Masters in Epidemiology, Certificate in Biostatistics***  
 Graduation: May 2020  
-GPA: 4.07  
+GPA: 4.05  
 Awards:  
 
 * *Witten Family Global Health Scholarship* 
@@ -26,7 +26,7 @@ GPA: 3.63
 <br>
 
 ### Skills 
-* **Technical**: SAS, R, SQL, ODK, Microsoft Excel, Microsoft Access, GIS, DHIS2  
+* **Technical**: SAS, R, Python, SQL, ODK, Microsoft Excel, Microsoft Access, GIS, DHIS2  
 
 * **Management**: Team lead for 2+ years, oversaw career development and promotion for more than 15 associates
 
@@ -35,6 +35,12 @@ GPA: 3.63
 <br>
 
 ### Professional
+
+**Columbia University, Biostatisics Department**, New York  
+January 2020 - Present  
+__*Applied Regression II Teaching Assisstant*__  
+
+* Assists MS, PhD, and MPH students in advanced statistical concepts including but not limited to survival analysis, polytomous logistic regression, and generalized estimating equations. 
 
 **[ICAP](https://icap.columbia.edu/)**, New York    
 December 2018 - Present  
